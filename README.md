@@ -1,5 +1,5 @@
 # bud
-Hacker News clone using Bud framework for Go
+Hacker News clone using Bud framework with Go back-end and Svelte front-end
 
 https://github.com/livebud/bud
 
