@@ -1,8 +1,9 @@
 <script>
+  import Header from './Header.svelte'
   export let stories = []
 </script>
 
-<h1>Story Index</h1>
+<Header />
 
 <table border="1" cellpadding="10">
   {#if stories.length > 0}
