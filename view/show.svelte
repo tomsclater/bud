@@ -4,7 +4,7 @@
   import Comment from './Comment.svelte';
   export let story = {}
 </script>
-
+<title>{story.title} | Comments</title>
 <Header />
 <Story {story} />
 {#each story.children as comment}
