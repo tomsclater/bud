@@ -11,10 +11,11 @@ type Controller struct {
 	HN *hackernews.Client
 }
 
-// Story struct
-type Story struct {
-	ID int `json:"id"`
-}
+// // Generated Story Struct
+// **REMOVED THIS SNIPPET**
+// type Story struct {
+// 	ID int `json:"id"`
+// }
 
 // Index of stories
 // GET
@@ -25,8 +26,10 @@ func (c *Controller) Index(ctx context.Context) (stories []*hackernews.Story, er
 
 // Show story
 // GET :id
-func (c *Controller) Show(ctx context.Context, id int) (story *Story, err error) {
-	return &Story{
-		ID: id,
-	}, nil
+func (c *Controller) Show(ctx context.Context, id int) (story *hackernews.Story, err error) {
+	return c.HN.Find(ctx, id)
+	// **REMOVED THIS SNIPPET**
+	// return &Story{
+	// 	ID: id,
+	// }, nil
 }
