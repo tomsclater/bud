@@ -1,9 +1,14 @@
 <script>
   import Header from './Header.svelte'
+  import Story from './Story.svelte'
   export let stories = []
 </script>
 
 <Header />
+
+{#each stories as story}
+  <Story {story} />
+{/each}
 
 <table border="1" cellpadding="10">
   {#if stories.length > 0}
