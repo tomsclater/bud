@@ -1,8 +1,16 @@
 <script>
+  import Header from './Header.svelte'
+  import Story from './Story.svelte'
+  import Comment from './Comment.svelte';
   export let story = {}
 </script>
 
-<h1>Show Story</h1>
+<Header />
+<Story {story} />
+{#each story.children as comment}
+<Comment {comment} />
+{/each}
+
 
 <table border="1" cellpadding="10">
   <thead>

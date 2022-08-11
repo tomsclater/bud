@@ -10,7 +10,9 @@
   <Story {story} />
 {/each}
 
-<table border="1" cellpadding="10">
+<!-- REMOVED TABLE BELOW -->
+
+<!-- <table border="1" cellpadding="10">
   {#if stories.length > 0}
     <thead>
       {#each Object.keys(stories[0]) as key}
@@ -39,4 +41,4 @@
   table {
     border-collapse: collapse;
   }
-</style>
+</style> -->
