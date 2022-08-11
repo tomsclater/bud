@@ -3,7 +3,7 @@
   import Story from './Story.svelte'
   export let stories = []
 </script>
-
+<title>Hacker News Feed</title>
 <Header />
 
 {#each stories as story}
