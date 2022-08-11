@@ -12,7 +12,7 @@
 {/each}
 
 
-<table border="1" cellpadding="10">
+<!-- <table border="1" cellpadding="10">
   <thead>
     {#each Object.keys(story) as key}
       <th>{key}</th>
@@ -35,4 +35,4 @@
   table {
     border-collapse: collapse;
   }
-</style>
+</style> -->
