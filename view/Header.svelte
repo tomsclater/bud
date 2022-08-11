@@ -1,6 +1,6 @@
 <header>
-    <img src="https://news.ycombinator.com/y18.gif" alt="Hacker News" />
-    <a href="/"><h1>Hacker News</h1> </a>
+    <img src="https://w7.pngwing.com/pngs/272/49/png-transparent-rss-web-feed-logo-news-aggregator-blog-rss-feed-icon-miscellaneous-text-orange-thumbnail.png" alt="Hacker News" />
+    <a href="/"><h1>Hacker News Feed</h1> </a>
 </header>
 
 <style>
@@ -8,6 +8,7 @@
         display: flex;
         align-items: center;
         padding: 10px;
+        color: hwb(41 15% 77%);
     }
 
 
